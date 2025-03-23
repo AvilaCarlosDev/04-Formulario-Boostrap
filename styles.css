@@ -1,0 +1,29 @@
+.error-message {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-icons img {
+  height: 30px;
+}
+
+.payment-icons {
+  background-color: #5b5d5f4f;
+  padding: 10px;
+  border-radius: 5px;
+}

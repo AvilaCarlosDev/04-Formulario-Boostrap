@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+
+    <!-- Enlace a los estilos de Font Awesome para los íconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- Enlace a los estilos de Bootstrap para diseño responsivo -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Enlace a un archivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Contenedor principal con margen vertical -->
+    <div class="container my-5">
+      <!-- Inicio del formulario -->
+      <form action="">
+        <div class="payment-form">
+          <!-- Título del formulario -->
+          <h1 class="text-center mb-4">Payment form example</h1>
+
+          <!-- Mensaje de error (oculto o visible según la lógica) -->
+          <div class="error-message text-danger text-center mb-3">
+            Some fields are missing
+          </div>
+
+          <!-- Campo para el número de tarjeta -->
+          <div class="mb-3">
+            <label for="cardNumber" class="form-label">Card #</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cardNumber"
+              placeholder="XXXXXXXXXXXXXXXX"
+            />
+          </div>
+
+          <!-- Fila para CVC y monto -->
+          <div class="row mb-3">
+            <!-- Campo para el CVC -->
+            <div class="col-sm-12 col-md-6">
+              <label for="cvc" class="form-label">CVC #</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cvc"
+                placeholder="0000"
+              />
+            </div>
+            <!-- Campo para el monto -->
+            <div class="col-sm-12 col-md-6">
+              <label for="amount" class="form-label">Amount</label>
+              <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="amount"
+                  placeholder="Amount"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Fila para nombres -->
+          <div class="row mb-3">
+            <!-- Campo para el nombre -->
+            <div class="col-sm-12 col-md-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" />
+            </div>
+            <!-- Campo para el apellido -->
+            <div class="col-sm-12 col-md-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" />
+            </div>
+          </div>
+
+          <!-- Fila para ciudad, estado y código postal -->
+          <div class="row mb-3">
+            <!-- Campo para la ciudad -->
+            <div class="col-sm-12 col-md-6">
+              <label for="city" class="form-label">City</label>
+              <input type="text" class="form-control" id="city" />
+            </div>
+            <!-- Campo para el estado -->
+            <div class="col-sm-6 col-md-3">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select" id="state">
+                <option selected>Pick a state</option>
+                <!-- Opciones de estado -->
+              </select>
+            </div>
+            <!-- Campo para el código postal -->
+            <div class="col-sm-6 col-md-3">
+              <label for="postalCode" class="form-label">Postal Code</label>
+              <input type="text" class="form-control" id="postalCode" />
+            </div>
+          </div>
+
+          <!-- Fila para métodos de pago y mensaje -->
+          <div class="row mb-3">
+            <!-- Métodos de pago aceptados -->
+            <div class="col-sm-12 col-md-6">
+              <label>We accept:</label>
+              <div class="payment-icons d-flex gap-2">
+                <input type="radio" /><i class="fa-brands fa-cc-mastercard"></i>
+                <input type="radio" /><i class="fa-brands fa-cc-visa"></i>
+                <input type="radio" /><i class="fa-brands fa-cc-discover"></i>
+                <input type="radio" /><i class="fa-brands fa-cc-amex"></i>
+              </div>
+            </div>
+            <!-- Campo para mensaje adicional -->
+            <div class="col-sm-12 col-md-6">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+              <small>Add any notes here.</small>
+            </div>
+          </div>
+
+          <!-- Botones de acción -->
+          <div class="d-flex justify-content-end gap-2">
+            <button type="button" class="btn btn-secondary">Cancel</button>
+            <button type="button" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Enlace al script de Bootstrap para funcionalidad adicional -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

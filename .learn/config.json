@@ -1,0 +1,122 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "win32",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0.127"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "template",
+        "grading": "isolated",
+        "exercisesPath": "./",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": "vscode"
+        },
+        "warnings": {
+            "agent": null
+        },
+        "title": {
+            "en": "HTML/CSS Starter Template for beginners",
+            "es": "Plantilla Inicial de HTML/CSS para principiantes"
+        },
+        "description": {
+            "us": "This is a starter template for HTML/CSS projects. It includes a basic folder structure, a sample HTML file, and a CSS file to kickstart your project.",
+            "es": "Esta es una plantilla inicial para proyectos de HTML/CSS. Incluye una estructura básica de carpetas, un archivo HTML de ejemplo y un archivo CSS para iniciar tu proyecto."
+        },
+        "repository": "https://github.com/yourusername/html-css-starter-template",
+        "preview": "https://repository-images.githubusercontent.com/183094552/ef3d4980-78e0-11ea-8f81-31089e626628",
+        "difficulty": "beginner",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "javascript"
+        ],
+        "translations": []
+    },
+    "address": "http://localhost:3000",
+    "currentExercise": "default-index",
+    "exercises": [
+        {
+            "position": 0,
+            "path": "./",
+            "slug": "default-index",
+            "translations": {
+                "cn": "README.cn.md",
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": null,
+            "title": "default-index",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".//.git",
+                    "name": ".git",
+                    "hidden": true
+                },
+                {
+                    "path": ".//.learn",
+                    "name": ".learn",
+                    "hidden": true
+                },
+                {
+                    "path": ".//.vscode",
+                    "name": ".vscode",
+                    "hidden": true
+                },
+                {
+                    "path": ".//learn.json",
+                    "name": "learn.json",
+                    "hidden": true
+                },
+                {
+                    "path": ".//README.cn.md",
+                    "name": "README.cn.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".//README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".//README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".//server.py",
+                    "name": "server.py",
+                    "hidden": false
+                }
+            ],
+            "done": false
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 5656915068024155000
+}
