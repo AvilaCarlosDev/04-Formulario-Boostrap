@@ -41,13 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Limitar el número máximo de caracteres en tiempo real
   cardNumberInput.addEventListener("input", () => {
     if (cardNumberInput.value.length > 16) {
-      cardNumberInput.value = cardNumberInput.value.slice(0, 16); // Cortar a 16 caracteres
+      cardNumberInput.value = cardNumberInput.value.slice(0, 16);
     }
   });
 
   cvcInput.addEventListener("input", () => {
     if (cvcInput.value.length > 3) {
-      cvcInput.value = cvcInput.value.slice(0, 3); // Cortar a 3 caracteres
+      cvcInput.value = cvcInput.value.slice(0, 3);
     }
   });
 });
