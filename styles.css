@@ -1,3 +1,12 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
 .error-message {
   background-color: #f8d7da;
   border-color: #f5c6cb;
@@ -6,7 +15,8 @@
 }
 
 .payment-form {
-  max-width: 600px;
+  width: 100%;
+  max-width: 1980px;
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -16,14 +26,12 @@
 .payment-icons {
   display: flex;
   gap: 10px;
+  background-color: #5b5d5f4f;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content; /* Ajusta el ancho al contenido */
 }
 
 .payment-icons img {
   height: 30px;
-}
-
-.payment-icons {
-  background-color: #5b5d5f4f;
-  padding: 10px;
-  border-radius: 5px;
 }
