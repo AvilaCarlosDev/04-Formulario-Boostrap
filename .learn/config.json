@@ -87,6 +87,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".//index.html",
+                    "name": "index.html",
+                    "hidden": false
+                },
+                {
                     "path": ".//learn.json",
                     "name": "learn.json",
                     "hidden": true
@@ -110,6 +115,11 @@
                     "path": ".//server.py",
                     "name": "server.py",
                     "hidden": false
+                },
+                {
+                    "path": ".//styles.css",
+                    "name": "styles.css",
+                    "hidden": false
                 }
             ],
             "done": false
@@ -118,5 +128,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 5656915068024155000
+    "session": 5298996717970234000
 }
