@@ -55,7 +55,7 @@
         "translations": []
     },
     "address": "http://localhost:3000",
-    "currentExercise": "default-index",
+    "currentExercise": null,
     "exercises": [
         {
             "position": 0,
@@ -85,6 +85,11 @@
                     "path": ".//.vscode",
                     "name": ".vscode",
                     "hidden": true
+                },
+                {
+                    "path": ".//Form.js",
+                    "name": "Form.js",
+                    "hidden": false
                 },
                 {
                     "path": ".//index.html",
@@ -128,5 +133,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 5241829509791605000
+    "session": 8630292781180276000
 }
